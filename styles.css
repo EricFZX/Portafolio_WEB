@@ -1,0 +1,91 @@
+* {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.min-h-400 {
+    min-height: 400px;
+}
+
+.circular-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.name-title {
+    padding-top: 10px;
+}
+
+.dark {
+    background-color: #28242c;
+}
+
+.custom-navbar-margin {
+    margin-left: 30px;
+    /* Ajusta este valor según tus necesidades */
+}
+
+.auto-style {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+svg {
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+
+.pd-top {
+    padding-top: 10px;
+}
+
+.pd-bottom {
+    padding-bottom: 10px;
+}
+
+.about-info {
+    width: 70%;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-body {
+    height: 250px;
+}
+
+.card input {
+    width: 100%;
+}
+
+.card label {
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+}
+.button{
+    margin: 20px 0px 20px 0px;
+    color: white;
+    background-color: #28242c;
+    border-radius: 3%;
+    border: none;
+}

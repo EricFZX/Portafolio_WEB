@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Funez</title>
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- JS Script -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "n4ohGm28pRAkKaZCk",
+            });
+        })();
+    </script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark dark navbar-expand-lg">
+        <div class="container-fluid custom-navbar-margin">
+            <a class="navbar-brand " href="#">Eric Funez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#About_Me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#Contact_Me">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 110" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="0%"></stop>
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="100%"></stop>
+            </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+            d="M0,11L60,18.3C120,26,240,40,360,45.8C480,51,600,48,720,38.5C840,29,960,15,1080,14.7C1200,15,1320,29,1440,40.3C1560,51,1680,59,1800,56.8C1920,55,2040,44,2160,49.5C2280,55,2400,77,2520,86.2C2640,95,2760,92,2880,75.2C3000,59,3120,29,3240,22C3360,15,3480,29,3600,29.3C3720,29,3840,15,3960,20.2C4080,26,4200,51,4320,56.8C4440,62,4560,48,4680,42.2C4800,37,4920,40,5040,40.3C5160,40,5280,37,5400,38.5C5520,40,5640,48,5760,45.8C5880,44,6000,33,6120,29.3C6240,26,6360,29,6480,31.2C6600,33,6720,33,6840,31.2C6960,29,7080,26,7200,31.2C7320,37,7440,51,7560,47.7C7680,44,7800,22,7920,23.8C8040,26,8160,51,8280,55C8400,59,8520,40,8580,31.2L8640,22L8640,110L8580,110C8520,110,8400,110,8280,110C8160,110,8040,110,7920,110C7800,110,7680,110,7560,110C7440,110,7320,110,7200,110C7080,110,6960,110,6840,110C6720,110,6600,110,6480,110C6360,110,6240,110,6120,110C6000,110,5880,110,5760,110C5640,110,5520,110,5400,110C5280,110,5160,110,5040,110C4920,110,4800,110,4680,110C4560,110,4440,110,4320,110C4200,110,4080,110,3960,110C3840,110,3720,110,3600,110C3480,110,3360,110,3240,110C3120,110,3000,110,2880,110C2760,110,2640,110,2520,110C2400,110,2280,110,2160,110C2040,110,1920,110,1800,110C1680,110,1560,110,1440,110C1320,110,1200,110,1080,110C960,110,840,110,720,110C600,110,480,110,360,110C240,110,120,110,60,110L0,110Z">
+        </path>
+    </svg>
+    <!-- Profile -->
+    <section class="container">
+        <div class="d-flex flex-column
+        justify-content-center align-items-center min-h-400">
+            <img class="circular-img" src="Images/Profile_Picture.jpg" alt="Profile Picture">
+            <h2 class="name-title">Hi, I´m Eric 👋💻!</h2>
+            <p class="auto-style">A <span class="auto-type"></span></p>
+    </section>
+
+    <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 110" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="0%"></stop>
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="100%"></stop>
+            </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+            d="M0,11L60,18.3C120,26,240,40,360,45.8C480,51,600,48,720,38.5C840,29,960,15,1080,14.7C1200,15,1320,29,1440,40.3C1560,51,1680,59,1800,56.8C1920,55,2040,44,2160,49.5C2280,55,2400,77,2520,86.2C2640,95,2760,92,2880,75.2C3000,59,3120,29,3240,22C3360,15,3480,29,3600,29.3C3720,29,3840,15,3960,20.2C4080,26,4200,51,4320,56.8C4440,62,4560,48,4680,42.2C4800,37,4920,40,5040,40.3C5160,40,5280,37,5400,38.5C5520,40,5640,48,5760,45.8C5880,44,6000,33,6120,29.3C6240,26,6360,29,6480,31.2C6600,33,6720,33,6840,31.2C6960,29,7080,26,7200,31.2C7320,37,7440,51,7560,47.7C7680,44,7800,22,7920,23.8C8040,26,8160,51,8280,55C8400,59,8520,40,8580,31.2L8640,22L8640,110L8580,110C8520,110,8400,110,8280,110C8160,110,8040,110,7920,110C7800,110,7680,110,7560,110C7440,110,7320,110,7200,110C7080,110,6960,110,6840,110C6720,110,6600,110,6480,110C6360,110,6240,110,6120,110C6000,110,5880,110,5760,110C5640,110,5520,110,5400,110C5280,110,5160,110,5040,110C4920,110,4800,110,4680,110C4560,110,4440,110,4320,110C4200,110,4080,110,3960,110C3840,110,3720,110,3600,110C3480,110,3360,110,3240,110C3120,110,3000,110,2880,110C2760,110,2640,110,2520,110C2400,110,2280,110,2160,110C2040,110,1920,110,1800,110C1680,110,1560,110,1440,110C1320,110,1200,110,1080,110C960,110,840,110,720,110C600,110,480,110,360,110C240,110,120,110,60,110L0,110Z">
+        </path>
+    </svg>
+    <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="0%"></stop>
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="100%"></stop>
+            </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+            d="M0,13L60,21.7C120,30,240,48,360,54.2C480,61,600,56,720,45.5C840,35,960,17,1080,17.3C1200,17,1320,35,1440,47.7C1560,61,1680,69,1800,67.2C1920,65,2040,52,2160,58.5C2280,65,2400,91,2520,101.8C2640,113,2760,108,2880,88.8C3000,69,3120,35,3240,26C3360,17,3480,35,3600,34.7C3720,35,3840,17,3960,23.8C4080,30,4200,61,4320,67.2C4440,74,4560,56,4680,49.8C4800,43,4920,48,5040,47.7C5160,48,5280,43,5400,45.5C5520,48,5640,56,5760,54.2C5880,52,6000,39,6120,34.7C6240,30,6360,35,6480,36.8C6600,39,6720,39,6840,36.8C6960,35,7080,30,7200,36.8C7320,43,7440,61,7560,56.3C7680,52,7800,26,7920,28.2C8040,30,8160,61,8280,65C8400,69,8520,48,8580,36.8L8640,26L8640,130L8580,130C8520,130,8400,130,8280,130C8160,130,8040,130,7920,130C7800,130,7680,130,7560,130C7440,130,7320,130,7200,130C7080,130,6960,130,6840,130C6720,130,6600,130,6480,130C6360,130,6240,130,6120,130C6000,130,5880,130,5760,130C5640,130,5520,130,5400,130C5280,130,5160,130,5040,130C4920,130,4800,130,4680,130C4560,130,4440,130,4320,130C4200,130,4080,130,3960,130C3840,130,3720,130,3600,130C3480,130,3360,130,3240,130C3120,130,3000,130,2880,130C2760,130,2640,130,2520,130C2400,130,2280,130,2160,130C2040,130,1920,130,1800,130C1680,130,1560,130,1440,130C1320,130,1200,130,1080,130C960,130,840,130,720,130C600,130,480,130,360,130C240,130,120,130,60,130L0,130Z">
+        </path>
+    </svg>
+
+    <!-- About Me -->
+    <section class="container d-flex flex-column flex-md-row pd-top" id="About_Me">
+        <div class="d-flex justify-content-center col-12 col-md-6">
+            <div class="d-flex flex-column align-items-center justify-content-center about-info">
+                <h2>About Me</h2>
+                <p style="text-align: justify;">I'm currently a software engineer student looking for news
+                    opportunities. Completely fascinated with a
+                    world surrounded by technology which everday we learn something new. I'm also a Junior developer in
+                    Flutter(Mobile) and WEB development, with knowledge in Firebase connection as backend. In my free
+                    time I
+                    enjoy teaching students like me that have difficult while learning to program!</p>
+            </div>
+        </div>
+        <!-- Carousel -->
+        <div class="d-none d-md-block col-md-6">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/Carrousel/Img_1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/Carrousel/Img_2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/Carrousel/Img_3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 110" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="0%"></stop>
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="100%"></stop>
+            </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+            d="M0,11L60,18.3C120,26,240,40,360,45.8C480,51,600,48,720,38.5C840,29,960,15,1080,14.7C1200,15,1320,29,1440,40.3C1560,51,1680,59,1800,56.8C1920,55,2040,44,2160,49.5C2280,55,2400,77,2520,86.2C2640,95,2760,92,2880,75.2C3000,59,3120,29,3240,22C3360,15,3480,29,3600,29.3C3720,29,3840,15,3960,20.2C4080,26,4200,51,4320,56.8C4440,62,4560,48,4680,42.2C4800,37,4920,40,5040,40.3C5160,40,5280,37,5400,38.5C5520,40,5640,48,5760,45.8C5880,44,6000,33,6120,29.3C6240,26,6360,29,6480,31.2C6600,33,6720,33,6840,31.2C6960,29,7080,26,7200,31.2C7320,37,7440,51,7560,47.7C7680,44,7800,22,7920,23.8C8040,26,8160,51,8280,55C8400,59,8520,40,8580,31.2L8640,22L8640,110L8580,110C8520,110,8400,110,8280,110C8160,110,8040,110,7920,110C7800,110,7680,110,7560,110C7440,110,7320,110,7200,110C7080,110,6960,110,6840,110C6720,110,6600,110,6480,110C6360,110,6240,110,6120,110C6000,110,5880,110,5760,110C5640,110,5520,110,5400,110C5280,110,5160,110,5040,110C4920,110,4800,110,4680,110C4560,110,4440,110,4320,110C4200,110,4080,110,3960,110C3840,110,3720,110,3600,110C3480,110,3360,110,3240,110C3120,110,3000,110,2880,110C2760,110,2640,110,2520,110C2400,110,2280,110,2160,110C2040,110,1920,110,1800,110C1680,110,1560,110,1440,110C1320,110,1200,110,1080,110C960,110,840,110,720,110C600,110,480,110,360,110C240,110,120,110,60,110L0,110Z">
+        </path>
+    </svg>
+    <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="0%"></stop>
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="100%"></stop>
+            </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+            d="M0,13L60,21.7C120,30,240,48,360,54.2C480,61,600,56,720,45.5C840,35,960,17,1080,17.3C1200,17,1320,35,1440,47.7C1560,61,1680,69,1800,67.2C1920,65,2040,52,2160,58.5C2280,65,2400,91,2520,101.8C2640,113,2760,108,2880,88.8C3000,69,3120,35,3240,26C3360,17,3480,35,3600,34.7C3720,35,3840,17,3960,23.8C4080,30,4200,61,4320,67.2C4440,74,4560,56,4680,49.8C4800,43,4920,48,5040,47.7C5160,48,5280,43,5400,45.5C5520,48,5640,56,5760,54.2C5880,52,6000,39,6120,34.7C6240,30,6360,35,6480,36.8C6600,39,6720,39,6840,36.8C6960,35,7080,30,7200,36.8C7320,43,7440,61,7560,56.3C7680,52,7800,26,7920,28.2C8040,30,8160,61,8280,65C8400,69,8520,48,8580,36.8L8640,26L8640,130L8580,130C8520,130,8400,130,8280,130C8160,130,8040,130,7920,130C7800,130,7680,130,7560,130C7440,130,7320,130,7200,130C7080,130,6960,130,6840,130C6720,130,6600,130,6480,130C6360,130,6240,130,6120,130C6000,130,5880,130,5760,130C5640,130,5520,130,5400,130C5280,130,5160,130,5040,130C4920,130,4800,130,4680,130C4560,130,4440,130,4320,130C4200,130,4080,130,3960,130C3840,130,3720,130,3600,130C3480,130,3360,130,3240,130C3120,130,3000,130,2880,130C2760,130,2640,130,2520,130C2400,130,2280,130,2160,130C2040,130,1920,130,1800,130C1680,130,1560,130,1440,130C1320,130,1200,130,1080,130C960,130,840,130,720,130C600,130,480,130,360,130C240,130,120,130,60,130L0,130Z">
+        </path>
+    </svg>
+
+    <!-- Projects -->
+    <section class="container  pd-top" id="Projects">
+        <H2 class="pd-bottom" style="text-align: center;">My Projects</H2>
+        <!-- Cards -->
+        <!-- Project#1 -->
+        <div class="d-flex flex-column flex-md-row justify-content-evenly flex-wrap">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="Images/Projects/TV_Maze.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">TV-MAZE</h5>
+                            <p class="card-text">
+                                Movies Catolog Web page, using JSP, local database (Ucanaccess), in which you can create
+                                your own user, and see all the list based on categories. Including their distribution
+                                such as Episodes, Seasons ETC.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 months ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project#2 -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="Images/Projects/Policia_Logo.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile App Exam</h5>
+                            <p class="card-text">
+                                App developed in flutter using Firebase as Database, which consist on making a fifty
+                                questions exam. This will determinate if you pass your transit theory exam. Using CRUD
+                                for manage users, categories and questions. <strong>(Goverment App)</strong></p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 2 months ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project#3 -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="Images/Projects/Rubik Cube.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">2D Rubik Cube</h5>
+                            <p class="card-text">2D Rubik cube using Matrix to manage all the movements as a number , in
+                                this case we use numbers to refer each position, also with a button to solve that gives
+                                you back the inverse movements that you do.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 8 months ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project#4 -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="Images/Projects/Sol_Car.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Mechanical Workshop App</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer. <strong>(Collaborator)</strong>
+                            </p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 1 week ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 110" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="0%"></stop>
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="100%"></stop>
+            </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+            d="M0,11L60,18.3C120,26,240,40,360,45.8C480,51,600,48,720,38.5C840,29,960,15,1080,14.7C1200,15,1320,29,1440,40.3C1560,51,1680,59,1800,56.8C1920,55,2040,44,2160,49.5C2280,55,2400,77,2520,86.2C2640,95,2760,92,2880,75.2C3000,59,3120,29,3240,22C3360,15,3480,29,3600,29.3C3720,29,3840,15,3960,20.2C4080,26,4200,51,4320,56.8C4440,62,4560,48,4680,42.2C4800,37,4920,40,5040,40.3C5160,40,5280,37,5400,38.5C5520,40,5640,48,5760,45.8C5880,44,6000,33,6120,29.3C6240,26,6360,29,6480,31.2C6600,33,6720,33,6840,31.2C6960,29,7080,26,7200,31.2C7320,37,7440,51,7560,47.7C7680,44,7800,22,7920,23.8C8040,26,8160,51,8280,55C8400,59,8520,40,8580,31.2L8640,22L8640,110L8580,110C8520,110,8400,110,8280,110C8160,110,8040,110,7920,110C7800,110,7680,110,7560,110C7440,110,7320,110,7200,110C7080,110,6960,110,6840,110C6720,110,6600,110,6480,110C6360,110,6240,110,6120,110C6000,110,5880,110,5760,110C5640,110,5520,110,5400,110C5280,110,5160,110,5040,110C4920,110,4800,110,4680,110C4560,110,4440,110,4320,110C4200,110,4080,110,3960,110C3840,110,3720,110,3600,110C3480,110,3360,110,3240,110C3120,110,3000,110,2880,110C2760,110,2640,110,2520,110C2400,110,2280,110,2160,110C2040,110,1920,110,1800,110C1680,110,1560,110,1440,110C1320,110,1200,110,1080,110C960,110,840,110,720,110C600,110,480,110,360,110C240,110,120,110,60,110L0,110Z">
+        </path>
+    </svg>
+    <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="0%"></stop>
+                <stop stop-color="rgba(40, 36, 44, 1)" offset="100%"></stop>
+            </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+            d="M0,13L60,21.7C120,30,240,48,360,54.2C480,61,600,56,720,45.5C840,35,960,17,1080,17.3C1200,17,1320,35,1440,47.7C1560,61,1680,69,1800,67.2C1920,65,2040,52,2160,58.5C2280,65,2400,91,2520,101.8C2640,113,2760,108,2880,88.8C3000,69,3120,35,3240,26C3360,17,3480,35,3600,34.7C3720,35,3840,17,3960,23.8C4080,30,4200,61,4320,67.2C4440,74,4560,56,4680,49.8C4800,43,4920,48,5040,47.7C5160,48,5280,43,5400,45.5C5520,48,5640,56,5760,54.2C5880,52,6000,39,6120,34.7C6240,30,6360,35,6480,36.8C6600,39,6720,39,6840,36.8C6960,35,7080,30,7200,36.8C7320,43,7440,61,7560,56.3C7680,52,7800,26,7920,28.2C8040,30,8160,61,8280,65C8400,69,8520,48,8580,36.8L8640,26L8640,130L8580,130C8520,130,8400,130,8280,130C8160,130,8040,130,7920,130C7800,130,7680,130,7560,130C7440,130,7320,130,7200,130C7080,130,6960,130,6840,130C6720,130,6600,130,6480,130C6360,130,6240,130,6120,130C6000,130,5880,130,5760,130C5640,130,5520,130,5400,130C5280,130,5160,130,5040,130C4920,130,4800,130,4680,130C4560,130,4440,130,4320,130C4200,130,4080,130,3960,130C3840,130,3720,130,3600,130C3480,130,3360,130,3240,130C3120,130,3000,130,2880,130C2760,130,2640,130,2520,130C2400,130,2280,130,2160,130C2040,130,1920,130,1800,130C1680,130,1560,130,1440,130C1320,130,1200,130,1080,130C960,130,840,130,720,130C600,130,480,130,360,130C240,130,120,130,60,130L0,130Z">
+        </path>
+    </svg>
+
+    <!-- Contact Me -->
+    <section id="Contact_Me" class="container pd-top d-flex flex-column justify-content-center align-items-center"
+        style="min-height: 500px;">
+        <H2 class="pd-bottom">Contact Me</H2>
+        <div class="card" style="max-width: 600px; width: 100%;">
+            <form class="d-flex flex-column align-items-center" onsubmit="sendMail()">
+                <div class="d-flex flex-column " style="width: 50%;">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" required>
+                    <label for="description">Description:</label>
+                    <textarea id="description" style="height: 80px;" required></textarea>
+                    <input type="submit" class="button" value="Enviar">
+                </div>
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <section class="container-fluid" style="background-color: #28242c;">
+        <footer class="py-3 ">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary"><i
+                            class="fab fa-facebook"></i></a></li>
+                <li class="nav-item"><a href="https://www.instagram.com/leonardo_e7/"
+                        class="nav-link px-2 text-secondary"><i class="fab fa-instagram"></i></a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/eric-funez-2101a7270"
+                        class="nav-link px-2 text-secondary"><i class="fab fa-linkedin"></i></a></li>
+                <li class="nav-item"><a href="https://github.com/EricFZX" class="nav-link px-2 text-secondary"><i
+                            class="fab fa-github"></i></a>
+                </li>
+            </ul>
+            <p class="text-center text-secondary">&copy; 2024 Eric Funez</p>
+        </footer>
+    </section>
+    <!-- Type Script -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.auto-type', {
+            strings: ["Software Engineer Student", "Junior Developer", "Hardware Geek"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+
+    <!-- BootStrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
